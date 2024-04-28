@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "hair-salon-420812",
+  "private_key_id": "e6f2c528e224dafb1cb8d2a181bb8d5a1f472109",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDO3M5yugbR01lo\nrbogjlg0D54pSgrRw3vLyCBZl0nyefzERerU/3OWuIKsMjilQNcCo5jJfYlvanf7\nD9cB4WaM8rkOWIeskypLIRFyW3TToaRlqBn5qM9iZd7lZ3Vms1pO3TM+2vn9Ianf\nlbDbwTnVspaGDPzwt3eUQOKOxxc6QPbt83xbuWjgPzBzB12wWfATpUBdakfwuKGa\nCPMl/tBAmnmA8Pjg4otekCDWSJRM/uNtyRns/QmC/PfGbDhxCqdl5rdqhvYLgAcN\nvRzZQ1geCyXdj4LMRXl5+5QvXrkFlLGm2lAXF/xML2CniK27jngUCgCfsYtpdUE0\nATMtSLizAgMBAAECggEANJTOyz267wnkb6W9KnpUNEOGBePCtUgVxxpDEtLQYpic\nZf2JsAOQy45x9Lg9StAc9xhDhW/qB86N2dzQX7N+IDSwUlOxhO3RcdBhgWp62zJ6\nubZNh/bfZBkV28T9BBJx0ZsLZB5ALhYo+mKv1mQawdWHymIxxzQzapVFoVo87rrQ\ncxNMPM3sObB6uNqDa28avT257e/8ShfpV4U7sXZ2lIwMIc0lIW60/SveV6xJVbJa\nFrl82zndB743uUUNy+CXfbLmGYAoDeljVkA/ONtDWjvWv4rK3JMgYjSiI0ewA3Qs\nLOae28rF3lFVHGolQ1hema15i5W7rwrBsyLG3uQUiQKBgQD0xjLtIQznB37n3Q1b\ndXQVNx9x0JA9lMx6Y2is0WZUdI2pqFJ50QS63zfPiZdQTbXpDSRbclfR0mzIyctx\n4FKMso0O3OtxQqHCOQHteZSNsEcYlbP7vOndzdg3fGmSxk7lL0H1numauB/xDOnG\nHPMYjq2rOW5sNZkDfLVYpvhwiQKBgQDYWYAyCfbJJIKHzYDoi0cBe34c3kkbFd3S\n7mPM2tQf0n6o1JDGMHyN9zDceZgpomyEzKM+llOcrQB3h4nejCI4GB3npWZyMlI0\nk+L41TLRUjdyao6JqL3IwXHob/U2y7qg3FUZ4Y3nPG56P/it3F/qwAJ74Pumq7pc\nEYrgMVT4WwKBgAp0OJKWGcX4NPxUHZDtaELLsuUagj6PD1iezEatPtCWlcJMNRGM\n0sXkaK7Nco/0cbN9YzMgpA2LDihZLf40FXJ64bljyA5zSRNRefqZebW/dJnhMumq\nfNaDRxu/jYa+P3pcVVXXLqTz/jE+WvGiJOPEnDg24LdwZpOWjOw3XV75AoGAcLcw\ncuF+EY1T9Cy83Gqzs7IDIkctD091Ik/Q7wmTOoEQPCWCx767JbuDWVqATDCzGP0E\nj7cCGL6JX7zdt3SK326xJd6mYRiWe44Q0lNBBo0vFg0t9cpUFiOylMa/mqzJrsUc\nET/SDocNh+OMTAhkcIlYwfGVKmCN1ynMkMEi48ECgYBbepnFiuO1nBe46RFndfG9\nPi8zVvNZAJE5Q6mqdu5TONi6VMPTi7GK2q8b9nTRsjP7JFpX67YmsmspVDXfiL/J\n2c9/lPS1QJVVPiG5S6jekSskxkOk/Oo0TgEuW1zqE5u/9OQnwYryYXITz13QXfFw\nyvypfmKWh4fh+7DE8bVh2g==\n-----END PRIVATE KEY-----\n",
+  "client_email": "hairsalon@hair-salon-420812.iam.gserviceaccount.com",
+  "client_id": "116108562043924884288",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hairsalon%40hair-salon-420812.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
