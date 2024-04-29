@@ -10,6 +10,8 @@ import "./i18n";
 import {configureStore} from "./store/store";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+  axios.defaults.withCredentials = true
+
 root.render(
   <Provider store={configureStore({})}>
     <React.Fragment>
