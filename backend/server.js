@@ -13,8 +13,12 @@ const appointmentModel = require('./routes/appointment');
 const Specialities = require('./routes/specialitiesR')
 
 const app = express()
-app.use(cors());
 
+app.use(cors({
+  origin: ["https://hairsalon-vercel-test2.vercel.app"],
+  methods: ["POST", "GET"],
+  credentials: true
+}));
 
 app.use(express.json())
 app.use(express.static('public'));
