@@ -30,6 +30,7 @@ import fakeBackend from "./helpers/AuthType/fakeBackend";
 
 
 function App() {
+  axios.defaults.withCredentials = true
   return (
     <AuthContextProvider>
     <React.Fragment>
