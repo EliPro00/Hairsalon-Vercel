@@ -38,7 +38,7 @@ const [calendarHeight, setCalendarHeight] = useState(1000); // Default height
       const { id, token } = JSON.parse(localStorage.getItem('user') || '{}');
       if (id && token) {
         try {
-          const response = await axios.get(`http://localhost:4000/appointment/bpapp/${id}`, {
+          const response = await axios.get(`https://hairsalon-vercel-test2.vercel.app/appointment/bpapp/${id}`, {
             headers: { Authorization: `Bearer ${token}` }
           });
           const formattedEvents = response.map(appointment => ({
@@ -102,14 +102,14 @@ const [calendarHeight, setCalendarHeight] = useState(1000); // Default height
           if (!id || !token) return;
   
           try {
-              const response = await axios.get(`http://localhost:4000/appointment/bpapp/${id}`, {
+              const response = await axios.get(`https://hairsalon-vercel-test2.vercel.app/appointment/bpapp/${id}`, {
                   headers: { Authorization: `Bearer ${token}`}
               });
               const appointments =  response;
   
               // Fetch barber details for each appointment
               const barberDetailsPromises = appointments.map(async (appointment) => {
-                  const barberResponse = await axios.get(`http://localhost:4000/barbers/${appointment.barber}`, {
+                  const barberResponse = await axios.get(`https://hairsalon-vercel-test2.vercel.app/barbers/${appointment.barber}`, {
                       headers: { Authorization: `Bearer ${token}`}
                   });
                   const fullName = `${barberResponse.f_name} ${barberResponse.l_name}`;
@@ -142,7 +142,7 @@ const [calendarHeight, setCalendarHeight] = useState(1000); // Default height
       const {token } = JSON.parse(localStorage.getItem('user') || '{}');
       if(token){
           try {
-              await axios.patch(`http://localhost:4000/appointment/toggleapp/${id}` , {} , {
+              await axios.patch(`https://hairsalon-vercel-test2.vercel.app/appointment/toggleapp/${id}` , {} , {
                   headers: { 'Authorization': `Bearer ${token}` }
               })
               setrender(!render)
