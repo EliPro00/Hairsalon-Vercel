@@ -88,7 +88,7 @@ const ListTables = () => {
             try {
               const { id, token } = JSON.parse(localStorage.getItem('user') || '{}');
               if (id && token) {
-                const response = await axios.get(`http://localhost:4000/barbers/bpb/${id}`, {
+                const response = await axios.get(`https://hairsalon-vercel-test2.vercel.app/barbers/bpb/${id}`, {
                   headers: { 'Authorization': `Bearer ${token}` },
                 });
                 setData(response);
@@ -117,7 +117,7 @@ const ListTables = () => {
         try {
             const {token } = JSON.parse(localStorage.getItem('user') || '{}');
             if(token) {
-                const check = await axios.patch(`http://localhost:4000/barbers/active/${_id}` , {}, 
+                const check = await axios.patch(`https://hairsalon-vercel-test2.vercel.app/barbers/active/${_id}` , {}, 
                 {headers: { 'Authorization': `Bearer ${token}` }})  
                 console.log(check)
                 setRender (!render)
@@ -205,7 +205,7 @@ const ListTables = () => {
                                                             : <td className="status"><span className="badge badge-soft-danger text-uppercase" onClick={() => handleactive(single._id)}>Block</span></td>
                                                         }
                                                 <td className="view">
-                                                    <Button color='primary' onClick={() => tog_image(`http://localhost:4000/Images/${single.image}`)}>
+                                                    <Button color='primary' onClick={() => tog_image(`https://hairsalon-vercel-test2.vercel.app/Images/${single.image}`)}>
                                                         <i className='mdi mdi-eye-check mdi-18px'></i>
                                                     </Button>
                                                 </td>
