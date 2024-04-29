@@ -115,7 +115,7 @@ const AddBarberForm = () => {
     const { id } = JSON.parse(localStorage.getItem('user'))
     if( id ){
       try {
-        const response = await axios.post(`http://localhost:4000/barbers/${id}/barbers`, formData, {
+        const response = await axios.post(`https://hairsalon-vercel-test2.vercel.app/barbers/${id}/barbers`, formData, {
           headers: {
             'Authorization': `Bearer ${user.token}`,
             'Content-Type': 'multipart/form-data'
@@ -158,7 +158,7 @@ const AddBarberForm = () => {
       const specialtyData = { b_id : barberId , price : specialty.price , speciality: specialty.name , time :specialty.time  }; // Prepare data for post request
       try {
         console.log('success' , specialtyData)
-        const response = await axios.post("http://localhost:4000/spec/", specialtyData, {
+        const response = await axios.post("https://hairsalon-vercel-test2.vercel.app/spec/", specialtyData, {
           headers: {
             'Authorization': `Bearer ${user.token}`,
             'Content-Type': 'application/json', // Correct Content-Type for JSON
