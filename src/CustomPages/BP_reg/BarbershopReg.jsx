@@ -99,14 +99,14 @@ const BarbershopReg = () => {
     const barbershop_data = {
       name , location , barbershopImg , est_year , operating_hrs , services
     }
-    const updateOperation = updateID ? axios.put(`http://localhost:4000/barbers/bp/${updateID}`, barbershop_data, {
+    const updateOperation = updateID ? axios.put(`https://hairsalon-vercel-test2.vercel.app/barbers/bp/${updateID}`, barbershop_data, {
       headers: { 'Authorization': `Bearer ${user.token}` }
     }) : Promise.resolve(); 
 
   
     
     
-    const createOperation = axios.post('http://localhost:4000/owners/', owner_data, {
+    const createOperation = axios.post('https://hairsalon-vercel-test2.vercel.app/owners/', owner_data, {
       headers: { 'Authorization': `Bearer ${user.token}` }
     })
     .then((res) => console.log(res))
